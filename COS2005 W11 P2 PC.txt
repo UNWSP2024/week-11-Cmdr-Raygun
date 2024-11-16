@@ -1,0 +1,15 @@
+Define class WINDOW:
+	Define initialization sequence:
+		String INFO = '...'
+		Object WINDOW = new window
+		Object FRAME = new frame within WINDOW
+		Object BUTTON_INFO = new button within FRAME
+		Object BUTTON_EXIT = new button within FRAME
+		
+		Setup INFO in FRAME
+		Setup BUTTON_INFO in FRAME w/ param. (side = left)
+		Setup BUTTON_EXIT in FRAME w/ param. (side = right)
+		Start window loop
+		
+If used as standalone:
+	WINDOW1 = WINDOW
